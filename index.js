@@ -12,10 +12,6 @@ client.commands = new Discord.Collection()
 client.aliases = new Discord.Collection()
 client.emotes = config.emoji
 
-client.config = {
-    prefix: process.env.PREFIX
-}
-
 fs.readdir("./commands/", (err, files) => {
     if (err) return console.log("Could not find any commands!")
     const jsFiles = files.filter(f => f.split(".").pop() === "js")
