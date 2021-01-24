@@ -8,7 +8,6 @@
     "discord.js": "^12.5.1",
     "distube": "^2.8.8",
     "dotenv": "^8.2.0",
-    "opusscript": "0.0.7",
     "ytdl-core": "^4.4.4"
   },
   "devDependencies": {},
