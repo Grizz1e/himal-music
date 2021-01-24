@@ -4,6 +4,7 @@
   "description": "Easy to use discord music bot",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.5.1",
     "distube": "^2.8.8",
     "dotenv": "^8.2.0",
